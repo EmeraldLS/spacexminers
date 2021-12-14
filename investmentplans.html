@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+    <style>
+        .investment-plans{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .investment-plan-1,.investment-plan-2,.investment-plan-3,.investment-plan-4{
+            margin: 10px 20px;
+            /* flex:0 0 100px; */
+        }
+        .investment-plan-1,.investment-plan-2,.investment-plan-3,.investment-plan-4{
+            min-width: 15%;
+        }
+        .invest-contain-div{
+            margin-top: 50px;
+        }
+    </style>
+
+
+
+ <!-- div containing investment plans  -->
+<div class=" invest-contain-div">
+    <div class="container-fluid py-5" id="">
+        <h2 class="text-uppercase text-center mb-4">spacexprofit investment plans</h2>
+
+        <!-- card -->
+            <div class="investment-plans">
+                   <div class="card text-center investment-plan-1" style="width:15rem;">
+                     <div class="card-header">
+                       <h4 class="text-bold">Beginner Plan</h4>
+                     </div>
+                     <div class="card-body">
+                       <h5 class="card-title">4% after 24 hours</h5>
+                       <ul class="list-group ">
+                         <li class="list-group-item">Minimum: $30</li>
+                         <li class="list-group-item">Maximum: $499</li>
+                         <li class="list-group-item">Referral Commission 3%</li>
+                       </ul>
+                     </div>
+                     <div class="card-footer text-muted">
+                       <button class="btn btn-success text-uppercase btn-block">deposit now</button>
+                     </div>
+                   </div>
+                  
+
+                 
+                   <div class="card text-center investment-plan-2"style="width:15rem;">
+                     <div class="card-header">
+                       <h4 class="text-bold">Expert Plan</h4>
+                     </div>
+                     <div class="card-body">
+                       <h5 class="card-title">6% after 24 hours</h5>
+                       <ul class="list-group ">
+                         <li class="list-group-item">Minimum: $500</li>
+                         <li class="list-group-item">Maximum: $1,499</li>
+                         <li class="list-group-item">Referral Commission 4%</li>
+                       </ul>
+                     </div>
+                     <div class="card-footer text-muted">
+                       <button class="btn btn-success text-uppercase btn-block">deposit now</button>
+                     </div>
+                   </div>
+
+                   <div class="card text-center investment-plan-3"style="width:15rem;">
+                    <div class="card-header">
+                      <h4 class="text-bold">Leader Plan</h4>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">10% after 24 hours</h5>
+                      <ul class="list-group ">
+                        <li class="list-group-item">Minimum: $1,500</li>
+                        <li class="list-group-item">Maximum: $6,999</li>
+                        <li class="list-group-item">Referral Commission 6%</li>
+                      </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                      <button class="btn btn-success text-uppercase btn-block">deposit now</button>
+                    </div>
+                  </div>
+
+                  <div class="card text-center investment-plan-4"style="width:15rem;">
+                    <div class="card-header">
+                      <h4 class="text-bold">Master Plan</h4>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">20% after 48 hours</h5>
+                      <ul class="list-group ">
+                        <li class="list-group-item">Minimum: $7,000</li>
+                        <li class="list-group-item">Maximum: Unlimited</li>
+                        <li class="list-group-item">Referral Commission 8%</li>
+                      </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                      <button class="btn btn-success text-uppercase btn-block">deposit now</button>
+                    </div>
+                  </div>
+                  
+         
+        </div>
+        <!-- end of card--->
+   </div>
+   
+</div>
+     
+<script src="js/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="js/vanilla-tilt.js"></script>
+<script src="./js/all.min.js"></script>
+</body>
+</html>
